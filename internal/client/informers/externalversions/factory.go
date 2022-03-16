@@ -4,9 +4,9 @@
 package externalversions
 
 import (
-	versioned "internal/client/clientset/versioned"
-	internalinterfaces "internal/client/informers/externalversions/internalinterfaces"
-	samplecrd "internal/client/informers/externalversions/samplecrd"
+	versioned "github.com/aseara/k8scr/internal/client/clientset/versioned"
+	internalinterfaces "github.com/aseara/k8scr/internal/client/informers/externalversions/internalinterfaces"
+	samplecrd "github.com/aseara/k8scr/internal/client/informers/externalversions/samplecrd"
 	reflect "reflect"
 	sync "sync"
 	time "time"

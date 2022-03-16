@@ -5,9 +5,9 @@ package v1
 
 import (
 	"context"
-	versioned "internal/client/clientset/versioned"
-	internalinterfaces "internal/client/informers/externalversions/internalinterfaces"
-	v1 "internal/client/listers/samplecrd/v1"
+	versioned "github.com/aseara/k8scr/internal/client/clientset/versioned"
+	internalinterfaces "github.com/aseara/k8scr/internal/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/aseara/k8scr/internal/client/listers/samplecrd/v1"
 	time "time"
 
 	samplecrdv1 "github.com/aseara/k8scr/internal/api/samplecrd/v1"

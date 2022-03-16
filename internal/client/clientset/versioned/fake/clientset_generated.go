@@ -4,9 +4,9 @@
 package fake
 
 import (
-	clientset "internal/client/clientset/versioned"
-	samplecrdv1 "internal/client/clientset/versioned/typed/samplecrd/v1"
-	fakesamplecrdv1 "internal/client/clientset/versioned/typed/samplecrd/v1/fake"
+	clientset "github.com/aseara/k8scr/internal/client/clientset/versioned"
+	samplecrdv1 "github.com/aseara/k8scr/internal/client/clientset/versioned/typed/samplecrd/v1"
+	fakesamplecrdv1 "github.com/aseara/k8scr/internal/client/clientset/versioned/typed/samplecrd/v1/fake"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"

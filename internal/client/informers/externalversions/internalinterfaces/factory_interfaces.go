@@ -4,7 +4,7 @@
 package internalinterfaces
 
 import (
-	versioned "internal/client/clientset/versioned"
+	versioned "github.com/aseara/k8scr/internal/client/clientset/versioned"
 	time "time"
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

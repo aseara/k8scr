@@ -5,7 +5,7 @@ package v1
 
 import (
 	"context"
-	scheme "internal/client/clientset/versioned/scheme"
+	scheme "github.com/aseara/k8scr/internal/client/clientset/versioned/scheme"
 	"time"
 
 	v1 "github.com/aseara/k8scr/internal/api/samplecrd/v1"
@@ -13,6 +13,9 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
+
+
+	
 )
 
 // NetworksGetter has a method to return a NetworkInterface.

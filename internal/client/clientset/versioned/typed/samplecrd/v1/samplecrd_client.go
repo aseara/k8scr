@@ -4,7 +4,7 @@
 package v1
 
 import (
-	"internal/client/clientset/versioned/scheme"
+	"github.com/aseara/k8scr/internal/client/clientset/versioned/scheme"
 	"net/http"
 
 	v1 "github.com/aseara/k8scr/internal/api/samplecrd/v1"

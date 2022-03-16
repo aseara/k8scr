@@ -4,8 +4,8 @@
 package samplecrd
 
 import (
-	internalinterfaces "internal/client/informers/externalversions/internalinterfaces"
-	v1 "internal/client/informers/externalversions/samplecrd/v1"
+	internalinterfaces "github.com/aseara/k8scr/internal/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/aseara/k8scr/internal/client/informers/externalversions/samplecrd/v1"
 )
 
 // Interface provides access to each of this group's versions.

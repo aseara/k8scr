@@ -4,7 +4,7 @@
 package v1
 
 import (
-	internalinterfaces "internal/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/aseara/k8scr/internal/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

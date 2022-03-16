@@ -5,7 +5,7 @@ package versioned
 
 import (
 	"fmt"
-	samplecrdv1 "internal/client/clientset/versioned/typed/samplecrd/v1"
+	samplecrdv1 "github.com/aseara/k8scr/internal/client/clientset/versioned/typed/samplecrd/v1"
 	"net/http"
 
 	discovery "k8s.io/client-go/discovery"

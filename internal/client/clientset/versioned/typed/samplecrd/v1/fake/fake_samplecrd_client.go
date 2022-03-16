@@ -4,7 +4,7 @@
 package fake
 
 import (
-	v1 "internal/client/clientset/versioned/typed/samplecrd/v1"
+	v1 "github.com/aseara/k8scr/internal/client/clientset/versioned/typed/samplecrd/v1"
 
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
