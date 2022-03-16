@@ -1,10 +1,11 @@
 package v1
 
 import (
-	"github.com/aseara/k8scr/internal/apis/samplecrd"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
+
+	"github.com/aseara/k8scr/internal/api/samplecrd"
 )
 
 // SchemeGroupVersion is the identifier for the API which includes
