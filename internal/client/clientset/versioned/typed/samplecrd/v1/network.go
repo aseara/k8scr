@@ -8,7 +8,7 @@ import (
 	scheme "internal/client/clientset/versioned/scheme"
 	"time"
 
-	v1 "github.com/aseara/k8scr/internal/apis/samplecrd/v1"
+	v1 "github.com/aseara/k8scr/internal/api/samplecrd/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

@@ -4,7 +4,7 @@
 package v1
 
 import (
-	v1 "github.com/aseara/k8scr/internal/apis/samplecrd/v1"
+	v1 "github.com/aseara/k8scr/internal/api/samplecrd/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"

@@ -4,7 +4,7 @@
 package scheme
 
 import (
-	samplecrdv1 "github.com/aseara/k8scr/internal/apis/samplecrd/v1"
+	samplecrdv1 "github.com/aseara/k8scr/internal/api/samplecrd/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

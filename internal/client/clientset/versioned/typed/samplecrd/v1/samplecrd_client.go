@@ -7,7 +7,7 @@ import (
 	"internal/client/clientset/versioned/scheme"
 	"net/http"
 
-	v1 "github.com/aseara/k8scr/internal/apis/samplecrd/v1"
+	v1 "github.com/aseara/k8scr/internal/api/samplecrd/v1"
 	rest "k8s.io/client-go/rest"
 )
 

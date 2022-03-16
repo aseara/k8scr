@@ -10,7 +10,7 @@ import (
 	v1 "internal/client/listers/samplecrd/v1"
 	time "time"
 
-	samplecrdv1 "github.com/aseara/k8scr/internal/apis/samplecrd/v1"
+	samplecrdv1 "github.com/aseara/k8scr/internal/api/samplecrd/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
