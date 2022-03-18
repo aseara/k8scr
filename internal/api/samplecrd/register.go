@@ -1,8 +1,8 @@
 package samplecrd
 
 const (
-	// GroupName for k8s api
-	GroupName = "samplecrd.k8s.io"
+	// GroupName for k8s api 
+	GroupName = "samplecrd.hg.com"
 	// Version for k8s api
 	Version = "v1"
 )
