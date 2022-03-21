@@ -48,6 +48,8 @@ func main() {
 
 	controller := NewController(kubeClient, networkClient, networkInformerFactory.Samplecrd().V1().Networks())
 
+	// Start the informer factories to begin populating the informer cache
+	glog.Info("Starting Network control loop")
 	go networkInformerFactory.Start(stopCh)
 
 	if err = controller.Run(2, stopCh); err != nil {
